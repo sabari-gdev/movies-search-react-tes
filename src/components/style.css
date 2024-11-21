@@ -1,0 +1,23 @@
+.top-bar-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+.movies-search-input-container {
+  display: flex;
+  gap: 16px;
+}
+.movies-search-input {
+  width: 400px;
+  height: 32px;
+}
+.movies-search-button {
+  width: 100px;
+  height: 36px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+}
